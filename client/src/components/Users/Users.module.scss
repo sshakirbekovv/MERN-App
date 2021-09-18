@@ -1,0 +1,88 @@
+.users {
+    padding: 2rem 2.875rem 1rem 1.5rem;
+    overflow-x: auto;
+
+    .users__header {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .users__table {
+        width: 100%;
+        margin-top: 2rem;
+
+        table {
+            width: 100%;
+            border-collapse:separate;
+            border-spacing: 0 10px;
+
+            thead {
+         
+                 th {
+                    text-align: right;
+                    color: #101F2B;
+                    border-bottom: 1px solid #E0E3EA;
+                    padding-bottom: .4rem;
+
+                    &:first-child {
+                        text-align: left;
+                    }
+
+                    &:nth-child(2) {
+                        text-align: center;
+                    }
+                 }
+             }
+
+            tbody {
+
+                td {
+                    border-bottom: 1px solid #E0E3EA;
+                    border-top: 1px solid #E0E3EA;
+                    border-left: none;
+                    border-right: none;
+                    text-align: right;
+                    color: #101F2B;
+
+                    &:first-child {
+                        border-left: 1px solid #E0E3EA;
+                        border-radius: 6px 0 0 6px;
+                        text-align: left;
+                        padding-left: 1.25rem;
+                        color: #465564;
+
+                        span {
+
+                            &:first-child {
+                                font-weight: bold;
+                            }
+
+                            &:last-child {
+                                padding-top: .3rem;
+                                font-size: .75rem;
+                            }
+                        }
+                    }
+
+                    &:last-child {
+                        border-right: 1px solid #E0E3EA;
+                        border-radius: 0 6px 6px 0;
+                        padding-right: 1.5rem;
+                    }
+
+                    &:nth-child(2) {
+                        text-align: center;
+                    }
+                }
+
+                &::before {
+                    content: "-";
+                    display: block;
+                    line-height: .6em;
+                    color: transparent;
+                }
+             }
+        }
+    }
+}

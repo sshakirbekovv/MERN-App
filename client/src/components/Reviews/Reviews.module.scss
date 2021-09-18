@@ -1,0 +1,25 @@
+.reviews {
+    padding: 2rem;
+
+    h1 {
+        text-align: center;
+        font-family: 'Inter-Bold';
+        padding-bottom: 1rem;
+    }
+}
+
+.reviews__form {
+    max-width: 40rem;
+}
+
+.review__alert {
+    text-align: center;
+    font-family: 'Inter-Bold';
+}
+
+.loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

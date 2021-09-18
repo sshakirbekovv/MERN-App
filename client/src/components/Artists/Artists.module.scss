@@ -1,0 +1,27 @@
+.artists {
+    background: #e5e5e5;
+}
+
+.artists__cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 3rem;
+}
+
+.artists__header {
+    text-align: center;
+    font-size: 1.5rem;
+
+    div {
+        padding: 1rem 0 0 0;
+
+        span {
+            font-family: 'Inter-Bold';
+        }
+    }
+
+    .loading {
+        font-family: 'Inter-Bold';
+    }
+}

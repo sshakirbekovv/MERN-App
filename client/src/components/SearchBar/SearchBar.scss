@@ -1,0 +1,39 @@
+.search {
+
+    .search__input {
+        background: transparent;
+        border: none;
+        padding: .7rem 2rem;
+        outline: none;
+    }
+
+    .search__button {
+        border: none;
+        background: transparent;
+        position: absolute;
+        right: 0;
+        margin-right: 2rem;
+    }
+
+    .search__icon {
+        fill: #777;
+    }
+}
+
+.fieldset {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    margin: 0 auto;
+    border-radius: 100px;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .search {
+        flex: 0 0 80%;
+    }
+}

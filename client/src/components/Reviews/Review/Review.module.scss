@@ -1,0 +1,20 @@
+.review {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.review__author {
+    font-size: .875rem;
+    font-family: 'Inter-SemiBold';
+
+    i {
+        font-family: 'Inter-SemiBold';
+    }
+}
+
+.review__title {
+    padding: 1rem 0 0 0;
+    font-family: 'Inter-Bold';
+}

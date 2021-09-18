@@ -1,0 +1,23 @@
+.footer {
+    background: #FFFFFF;
+    padding-top: 1rem;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li {
+
+            a {
+                padding-right: 1rem;
+                font-size: .875rem;
+                color: rgb(83, 100, 113);
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
